@@ -1,0 +1,33 @@
+/* Style all paragraphs with at least two rules. */
+p {
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Creating two rules for additional ID paragraph. */
+p#ParagraphWithID {
+    color: blueviolet;
+    font-style: italic;
+}
+
+/* Style all level two headers with at least two rules. */
+h2 {
+    color: red;
+    font-size: 4em;
+    font-style: italic;
+}
+
+/* Style all tables to include a border with a border color. */
+table {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #990000;
+    border-collapse: collapse;
+}
+
+/* Creating a new CSS rule block that contains width an height attributes for img tags. */
+img#logo {
+    height: auto;
+    width: fit-content;
+}
