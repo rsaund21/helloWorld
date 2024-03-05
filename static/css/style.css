@@ -31,3 +31,8 @@ img#logo {
     height: auto;
     width: fit-content;
 }
+
+/*Creating a CSS rule block based off boldTable class attribute in HTML code. */
+.boldTable {
+    font-weight: bold;
+}
