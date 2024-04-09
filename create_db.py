@@ -17,14 +17,14 @@ with app.app_context():
 
     # Initial loading of users
     users = [
-        {'username': 'rsaund21', 'email': 'rsaund21@umd.edu', 'first_name': 'Ryan','last_name': 'Saunderson',
-            'password': generate_password_hash('rsaund21', method='pbkdf2:sha256'), 'role': 'STUDENT'},
         {'username': 'student', 'email': 'student@umd.edu', 'first_name':'Imma', 'last_name':'Student',
             'password': generate_password_hash('studentpw', method='pbkdf2:sha256'), 'role':'STUDENT'},
         {'username': 'manager', 'email': 'manager@umd.edu', 'first_name':'Joe', 'last_name':'King',
             'password': generate_password_hash('managerpw', method='pbkdf2:sha256'), 'role':'MANAGER'},
         {'username': 'admin', 'email': 'admin@umd.edu', 'first_name':'Crystal', 'last_name':'Ball',
-            'password': generate_password_hash('adminpw', method='pbkdf2:sha256'), 'role':'ADMIN'}
+            'password': generate_password_hash('adminpw', method='pbkdf2:sha256'), 'role':'ADMIN'},
+        {'username': 'rsaund21', 'email': 'rsaund21@umd.edu', 'first_name': 'Ryan', 'last_name': 'Saunderson',
+         'password': generate_password_hash('rsaund21', method='pbkdf2:sha256'), 'role': 'STUDENT'}
     ]
 
     for each_user in users:
